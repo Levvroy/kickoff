@@ -1,0 +1,12 @@
+{
+  "name": "kickoff-marketplace",
+  "owner": { "name": "panggilanosjur" },
+  "metadata": { "description": "Plugin kickoff: interview klien sampai implementasi untuk Claude Code." },
+  "plugins": [
+    {
+      "name": "kickoff",
+      "source": "./",
+      "description": "Interview klien, dokumen, desain Figma, CLAUDE.md, dan implementasi bertahap."
+    }
+  ]
+}

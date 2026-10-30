@@ -1,0 +1,32 @@
+# {{NAMA_PROYEK}}
+<!-- Dibuat oleh plugin kickoff. Komentar HTML seperti ini tidak masuk konteks Claude. -->
+
+{{RINGKASAN_3_BARIS}}
+Alur dokumen: {{rpl|industry}}. Bahasa dokumen: {{BAHASA}}. Status fase: lihat `.project/state.md`.
+
+## Perintah
+<!-- Hanya perintah yang sudah dijalankan dan terbukti berhasil. -->
+- Install: `{{...}}`
+- Dev: `{{...}}`
+- Test: `{{...}}` (jalankan sebelum setiap commit)
+- Lint/format: `{{...}}`
+- Build: `{{...}}`
+
+## Struktur
+- `{{src/...}}`: {{peran}}
+- `docs/`: dokumen proyek ({{daftar inti}}). Registry ID: `docs/00-id-registry.md`
+- `.project/`: state, handoff, log wawancara, asumsi, sumber
+
+## Konvensi yang berbeda dari default
+- {{...}}
+
+## Traceability
+- Setiap kelas/fungsi/komponen yang mewujudkan kelas desain atau use case diberi komentar `trace: UCxx, KFxx, Cxx`.
+- Nama kelas di kode identik dengan nama kelas desain (Cxx) kecuali tercatat di {{DPPL B.1 | tech-plan}}.
+- Branch: `<tipe>/<UCxx-atau-T-xx>-<slug>`. Commit: `<tipe>(<scope>): <deskripsi> [KFxx]`.
+
+## Cara kerja
+- Satu sesi = satu task. Mulai sesi dengan membaca `.project/state.md` dan `.project/handoff.md`, akhiri dengan `/kickoff:handoff`, lalu buka sesi baru.
+- Jangan menulis versi library, perintah instalasi, atau nama API dari ingatan. Verifikasi dulu (Context7/dokumentasi resmi) dan catat di `.project/sources.md`.
+- Jika ragu tentang kebutuhan, tanya user. Jangan menambah fitur di luar requirement.
+- Rahasia hanya di `.env` (diabaikan git). Contoh variabel di `.env.example`.

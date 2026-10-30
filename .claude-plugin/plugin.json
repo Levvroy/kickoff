@@ -1,0 +1,8 @@
+{
+  "name": "kickoff",
+  "displayName": "Kickoff: Interview to Implementation",
+  "version": "0.1.0",
+  "description": "Mulai proyek baru seperti software engineer sungguhan: wawancara klien, riset, dokumen (alur RPL IF2150 atau industri), desain Figma lewat figma-console, CLAUDE.md, lalu implementasi bertahap per sesi.",
+  "author": { "name": "panggilanosjur" },
+  "keywords": ["requirements", "elicitation", "spec-driven", "figma", "rpl", "claude-md"]
+}

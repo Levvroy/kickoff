@@ -1,0 +1,12 @@
+# Bank pertanyaan: Web app
+- Siapa saja peran pengguna? Apa yang boleh dan tidak boleh dilakukan tiap peran?
+- Bagaimana pengguna masuk saat ini? Perlu SSO, email-password, OAuth, atau tanpa login?
+- Perangkat dan browser utama pengguna? Persentase mobile?
+- Butuh SEO atau halaman publik? Multi-bahasa?
+- Data utama apa yang disimpan? Siapa pemiliknya? Ada data pribadi (UU PDP)?
+- Integrasi: pembayaran, email/WA notifikasi, peta, API pihak ketiga?
+- Perkiraan jumlah pengguna dan puncak trafik?
+- Hosting: ada preferensi, anggaran per bulan, domain?
+- Perlu bekerja offline atau real-time (live update)?
+- Siapa yang mengelola konten/data setelah rilis?
+- Ekspor/impor data (CSV, PDF, Excel)?
